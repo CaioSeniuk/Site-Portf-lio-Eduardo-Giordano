@@ -1,0 +1,31 @@
+
+.container{
+    background-color: black;
+    height: 900px;
+    height: 100vh;
+    position: relative;
+}
+.img-background{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 30%;
+}
+
+.left-size{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 650px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.sobre-link{
+    color: #9b9b9b;
+}
+

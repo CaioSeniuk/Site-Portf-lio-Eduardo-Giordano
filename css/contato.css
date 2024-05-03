@@ -1,0 +1,86 @@
+.container{
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.right-size{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+label{
+    color: rgb(136, 136, 136);
+}
+textarea,
+input{
+    padding: 0.8rem;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.form-camp{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 0.3rem;
+}
+
+.contato-link {
+    color: #9b9b9b;
+}
+
+
+h1{
+    color: #0048d9;
+    font-weight: 50;
+    font-size: 40px;
+}
+
+button{
+    width: 100px;
+    padding: 1rem;
+    border: none;
+    color: #fff;
+    background-color: #0048d9;
+    font-weight: 1000;
+}
+
+button:hover{
+    background-color: #003192;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.left-size{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0;
+    margin-bottom: 10rem;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+h2{
+    font-size: 1rem;
+    color: #868686;
+}
+
+p{
+    color: rgb(136, 136, 136);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}

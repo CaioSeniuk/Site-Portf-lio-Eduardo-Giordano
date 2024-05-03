@@ -1,0 +1,62 @@
+.container{
+    background-color: black;
+    height: 900px;
+    position: relative;
+}
+.relacionamento-link{
+    color: #9b9b9b;
+}
+.img-background{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    opacity: 40%;
+   
+}
+
+.left-size{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+}
+
+.left-size > h1 {
+    text-align: center;
+}
+
+.card{
+    background-color: #00223d;
+    padding: 2rem;
+    height: 100px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.left-size > a > button {
+    padding: 1rem;
+    font-weight: 1000;
+    color: #fff;
+    background-color: #0048d9;
+    border: none;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.left-size > a > button:hover{
+    background-color: #003192;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-link{
+    color: #fff;
+}
